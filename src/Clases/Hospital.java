@@ -9,5 +9,14 @@ package Clases;
  * @author Haisv
  */
 public class Hospital {
-    
+    //Atributos:
+        private int id_hospital;
+        private String nombre;
+        private String direccion;
+        private int num_doctores;
+        private int num_pacientes;
+        private double costo_consulta;
+    //Constructores:
+    //Metodos getters y setters:
+    //Metodos:
 }
