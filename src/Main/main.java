@@ -4,6 +4,8 @@
  */
 package Main;
 
+import Clases.Hospital;
+
 /**
  *
  * @author Haisv
@@ -16,5 +18,5 @@ public class main {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+        
 }

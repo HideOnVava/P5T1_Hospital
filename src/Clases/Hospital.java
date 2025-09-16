@@ -63,4 +63,12 @@ public class Hospital {
                     "\nNum Pacientes: "+ num_pacientes +
                     "\nCosto Consulta: "+ costo_consulta;
         }
+        
+        public double calcularIngresos(){
+            return costo_consulta * num_pacientes;
+        }
+        
+        public double promedioPacientes_Doctor(){
+            return (double)num_pacientes / (double)num_doctores;
+        }
 }
